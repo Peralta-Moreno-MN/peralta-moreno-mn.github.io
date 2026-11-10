@@ -1,6 +1,6 @@
 # Menu of the left sidebar (in this order).
 # `accent` = colour of the section, like a protein chain in rainbow
-# (N-terminus violet/blue -> C-terminus red). Colours: _sass/_custom.scss
+# (N-terminus violet -> C-terminus pink). Colours: _sass/_custom.scss
 - title: Home
   url: /
   accent: home
@@ -16,6 +16,9 @@
 - title: Tutorials
   url: /tutorials/
   accent: tutorials
+- title: Scientific Stories
+  url: /stories/
+  accent: stories
 - title: Gallery
   url: /gallery/
   accent: gallery

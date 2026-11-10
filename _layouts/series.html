@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{%- comment -%}
+  One series of Scientific Stories (data in _data/series.yml).
+  Lists the posts with `series: <key>` in their front matter.
+{%- endcomment -%}
+{%- assign s = site.data.series[page.series] -%}
+<article class="page">
+  <p class="gallery-breadcrumb"><a href="{{ '/stories/' | relative_url }}">&larr; Scientific Stories</a></p>
+  <h1 class="page-title">{{ s.title }}</h1>
+  <p class="lead">{{ s.description }}</p>
+  {%- if s.illustrator %}
+  <p class="series-credit">{{ s.style | default: "Illustrations" }} by
+    {% if s.illustrator_link %}<a href="{{ s.illustrator_link }}">{{ s.illustrator }}</a>{% else %}{{ s.illustrator }}{% endif %}</p>
+  {%- endif %}
+  {{ content }}
+
+  {%- assign posts = site.categories.stories | where: "series", page.series -%}
+  {%- if posts.size > 0 -%}
+  <div class="posts">
+    {%- for post in posts -%}
+    <section class="post-entry{% if post.image %} has-image{% endif %}">
+      {%- if post.image -%}
+      <a href="{{ post.url | relative_url }}"><img class="post-entry-image" src="{{ post.image | relative_url }}" alt="" loading="lazy"></a>
+      {%- endif -%}
+      <div>
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <div class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></div>
+        <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      </div>
+    </section>
+    {%- endfor -%}
+  </div>
+  {%- else -%}
+  <p class="message">The first stories are on their way. Stay tuned!</p>
+  {%- endif -%}
+</article>

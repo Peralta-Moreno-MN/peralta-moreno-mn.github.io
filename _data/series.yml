@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+#  SCIENTIFIC STORIES — series of blog posts, each with its own illustrator.
+#  A post belongs to a series with, in its front matter:
+#     categories: [stories]
+#     series: from-leaf-to-lead
+# ---------------------------------------------------------------
+
+from-leaf-to-lead:
+  title: From Leaf to Lead
+  tagline: Natural medicinal plants and the molecules behind them.
+  description: >-
+    From traditional remedies to modern medicines: the stories of medicinal plants,
+    the active molecules hidden in their leaves, roots and flowers, and how they
+    inspire the design of new drugs.
+  illustrator: Illustrator name          # ✏️ name of the scrapbook artist
+  illustrator_link: https://www.instagram.com/username/
+  style: Scrapbook illustrations
+  cover: /assets/img/stories/from-leaf-to-lead/cover.jpg
+
+women-in-drug-design:
+  title: Women in Drug Design
+  tagline: The women behind the medicines we use every day.
+  description: >-
+    Portraits of the women who shaped, and keep shaping, drug discovery and design:
+    their science, their paths, and why you should know their names.
+  illustrator: Illustrator name          # ✏️
+  illustrator_link: https://www.instagram.com/username/
+  style: Illustrated portraits
+  cover: /assets/img/stories/women-in-drug-design/cover.jpg

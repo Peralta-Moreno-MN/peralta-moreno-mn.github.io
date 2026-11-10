@@ -25,6 +25,22 @@ layout: default
     {%- endif -%}
   </div>
 
+  {%- if page.series -%}
+    {%- assign series = site.data.series[page.series] -%}
+    <p class="post-series">A story from <a href="{{ '/stories/' | append: page.series | append: '/' | relative_url }}">{{ series.title }}</a></p>
+  {%- endif -%}
+
+  {%- if page.image -%}
+  <figure class="post-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}">
+    {%- assign credit = page.image_credit | default: series.illustrator -%}
+    {%- assign credit_link = page.image_credit_link | default: series.illustrator_link -%}
+    {%- if credit -%}
+    <figcaption>Illustration by {% if credit_link %}<a href="{{ credit_link }}">{{ credit }}</a>{% else %}{{ credit }}{% endif %}</figcaption>
+    {%- endif -%}
+  </figure>
+  {%- endif -%}
+
   {{ content }}
 
   {% if page.tags %}

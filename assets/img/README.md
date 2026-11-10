@@ -13,7 +13,9 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 | `gallery/abstracts/` | Graphical abstracts de artículos |
 | `gallery/outreach/` | Divulgación y vida en el laboratorio |
 | `illustrators/` | Foto o autorretrato de cada ilustradora (opcional) y `cover.jpg` para la tarjeta *Artistic team* de la galería |
-| `blog/` | Imágenes para las entradas del blog |
+| `stories/from-leaf-to-lead/` | Ilustraciones scrapbook de la serie *From Leaf to Lead* (plantas medicinales) |
+| `stories/women-in-drug-design/` | Ilustraciones de la serie *Women in Drug Design* |
+| `blog/` | Imágenes para otras entradas del blog (tutoriales…) |
 
 ## Cómo se ve la ilustración de fondo / portadilla
 
@@ -38,6 +40,12 @@ En el archivo de la sección (por ejemplo `pages/research.md`), quitar el `#` de
 ```
 
 Para cambiar el fondo de toda la web, cambiar `cover_image` en `_config.yml`.
+
+## Scientific Stories (cabeceras de las entradas)
+
+- **Formato horizontal 3:2**, por ejemplo **1800 × 1200 px**. Se muestra arriba de cada entrada y en miniatura en la lista de la serie.
+- Cada serie puede tener una imagen de presentación `cover.jpg` en su carpeta.
+- **Nombre:** el tema de la entrada, por ejemplo `willow-bark.jpg`.
 
 ## Infografías
 
