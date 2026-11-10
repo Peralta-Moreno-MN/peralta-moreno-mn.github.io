@@ -7,7 +7,7 @@ permalink: /gallery/
 <p>Moments from my scientific life, in pictures.</p>
 
 <div class="gallery-sections">
-{%- assign sections = "infographics,conferences,abstracts,outreach" | split: "," -%}
+{%- assign sections = "infographics,conferences,abstracts,outreach,artistic-team" | split: "," -%}
 {%- for key in sections -%}
   {%- assign section = site.data.gallery[key] -%}
   {%- assign cover = nil -%}
@@ -15,14 +15,21 @@ permalink: /gallery/
     {%- if f.path == section.cover -%}{%- assign cover = f.path -%}{%- endif -%}
   {%- endfor -%}
   {%- assign count = section.items | size -%}
-  <a class="gallery-section-card" href="{{ '/gallery/' | append: key | append: '/' | relative_url }}">
+  {%- assign link = '/gallery/' | append: key | append: '/' -%}
+  {%- if section.url -%}{%- assign link = section.url -%}{%- endif -%}
+  {%- assign unit = "photo" -%}
+  {%- if key == "artistic-team" -%}
+    {%- assign count = site.data.illustrators | size -%}
+    {%- assign unit = "artist" -%}
+  {%- endif -%}
+  <a class="gallery-section-card" href="{{ link | relative_url }}">
     {%- if cover -%}
     <img src="{{ cover | relative_url }}" alt="" loading="lazy">
     {%- else -%}
     <span class="gallery-section-placeholder" aria-hidden="true"></span>
     {%- endif -%}
     <span class="gallery-section-title">{{ section.title }}</span>
-    <span class="gallery-section-count">{% if count > 0 %}{{ count }} photo{% if count > 1 %}s{% endif %}{% else %}coming soon{% endif %}</span>
+    <span class="gallery-section-count">{% if count > 0 %}{{ count }} {{ unit }}{% if count > 1 %}s{% endif %}{% else %}coming soon{% endif %}</span>
   </a>
 {%- endfor -%}
 </div>

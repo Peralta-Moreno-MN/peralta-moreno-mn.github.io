@@ -7,12 +7,12 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 | Carpeta | Qué va aquí |
 |---|---|
 | `backgrounds/` | Fondo general de la barra lateral (`default.jpeg` es el de ahora, del tema original) |
-| `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `gallery.jpg`, `open-positions.jpg`, `illustrations.jpg` |
+| `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `gallery.jpg`, `open-positions.jpg` |
 | `gallery/infographics/` | **Infografías** (mujeres en la ciencia, divulgación) |
 | `gallery/conferences/` | Fotos de congresos |
 | `gallery/abstracts/` | Graphical abstracts de artículos |
 | `gallery/outreach/` | Divulgación y vida en el laboratorio |
-| `illustrators/` | Foto o autorretrato de cada ilustradora (opcional) |
+| `illustrators/` | Foto o autorretrato de cada ilustradora (opcional) y `cover.jpg` para la tarjeta *Artistic team* de la galería |
 | `blog/` | Imágenes para las entradas del blog |
 
 ## Cómo se ve la ilustración de fondo / portadilla

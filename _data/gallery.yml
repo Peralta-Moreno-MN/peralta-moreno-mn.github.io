@@ -5,6 +5,12 @@
 #  and add an entry under `items` like the example (remove the "#").
 # ---------------------------------------------------------------
 
+artistic-team:
+  title: Artistic team
+  intro: The artists who illustrate this website.
+  cover: /assets/img/illustrators/cover.jpg
+  url: /gallery/artistic-team/   # this section has its own page (artists from _data/illustrators.yml)
+
 conferences:
   title: Conferences
   intro: Talks, posters and great people met along the way.

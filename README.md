@@ -2,7 +2,7 @@
 
 Academic website of **María Nuria Peralta Moreno** → https://peralta-moreno-mn.github.io
 
-Built with [Jekyll](https://jekyllrb.com/) and the [Not Pure Poole](https://github.com/vszhub/not-pure-poole) theme, published with GitHub Pages. Illustrations by the artists credited on the [Illustrations](https://peralta-moreno-mn.github.io/illustrations/) page.
+Built with [Jekyll](https://jekyllrb.com/) and the [Not Pure Poole](https://github.com/vszhub/not-pure-poole) theme, published with GitHub Pages. Illustrations by the artists credited in the [Artistic team](https://peralta-moreno-mn.github.io/gallery/artistic-team/) page.
 
 ## Guía rápida para editar
 

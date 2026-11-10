@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Illustrations
-permalink: /illustrations/
-# cover_image: /assets/img/covers/illustrations.jpg
+title: Artistic team
+permalink: /gallery/artistic-team/
+# cover_image: /assets/img/covers/artistic-team.jpg
 ---
+
+<p class="gallery-breadcrumb"><a href="{{ '/gallery/' | relative_url }}">&larr; Gallery</a></p>
 
 The illustrations on this website — backgrounds, section covers and more — were made by
 these wonderful artists. Go check out their work!
