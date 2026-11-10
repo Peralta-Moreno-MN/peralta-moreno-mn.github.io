@@ -6,7 +6,7 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 
 | Carpeta | Qué va aquí |
 |---|---|
-| `backgrounds/` | Fondo general de la barra lateral (`default.jpeg` es el de ahora, del tema original) |
+| `backgrounds/` | Fondo general de la barra lateral (`gradient.jpg` es un degradado provisional hasta tener la ilustración) |
 | `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `gallery.jpg`, `open-positions.jpg` |
 | `gallery/infographics/` | **Infografías** (mujeres en la ciencia, divulgación) |
 | `gallery/conferences/` | Fotos de congresos |

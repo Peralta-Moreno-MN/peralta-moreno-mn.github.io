@@ -17,8 +17,8 @@ avatar: /assets/img/profile.jpg
 
 # Default background of the left sidebar.
 # Each page can use its own illustration with `cover_image:` in its front matter.
-cover_image: /assets/img/backgrounds/default.jpeg
-# cover_bg_color: "rgb(40, 73, 77)"   # colour used while the image loads
+cover_image: /assets/img/backgrounds/gradient.jpg   # temporary, until the illustration is ready
+cover_bg_color: "rgb(24, 40, 64)"   # colour used while the image loads
 # cover_color: "rgb(255, 255, 255)"   # text colour on the sidebar
 
 paginate: 5
