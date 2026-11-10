@@ -45,7 +45,6 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - .editorconfig
   - .jekyll-cache
   - LICENSE.md
   - README.md

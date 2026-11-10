@@ -9,7 +9,7 @@ Todo se puede editar desde la web de GitHub (botón ✏️ en cada archivo). La 
 | Título, descripción, foto de perfil, fondo general | `_config.yml` |
 | Menú lateral | `_data/navigation.yml` |
 | Iconos de contacto (email, ORCID, LinkedIn…) | `_data/social.yml` |
-| Texto de cada sección | `about.md`, `research.md`, `publications.md`, `open-positions.md`… |
+| Texto de cada sección | `pages/about.md`, `pages/research.md`, `pages/publications.md`, `pages/contact.md`… |
 | Fotos de la galería | `_data/gallery.yml` + imágenes en `assets/img/gallery/` |
 | Ilustradoras | `_data/illustrators.yml` |
 | Gente en *Open positions* | `_data/people.yml` |

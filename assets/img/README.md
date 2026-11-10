@@ -31,7 +31,7 @@ La imagen se recorta automáticamente desde el centro, así que:
 
 ## Cómo activar una portadilla
 
-En el archivo de la sección (por ejemplo `research.md`), quitar el `#` de la línea:
+En el archivo de la sección (por ejemplo `pages/research.md`), quitar el `#` de la línea:
 
 ```yaml
 # cover_image: /assets/img/covers/research.jpg
