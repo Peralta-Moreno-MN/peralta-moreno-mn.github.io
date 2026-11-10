@@ -1,0 +1,16 @@
+{%- comment -%}
+  Decides the colour of the current page (one colour of the rainbow per section),
+  from the page URL. A page can force it with `accent: <name>` in its front matter.
+  Colours are defined in _sass/_custom.scss.
+{%- endcomment -%}
+{%- assign accent = page.accent -%}
+{%- unless accent -%}
+  {%- assign accent = "home" -%}
+  {%- if page.url contains "/about/" -%}{%- assign accent = "about" -%}
+  {%- elsif page.url contains "/research/" -%}{%- assign accent = "research" -%}
+  {%- elsif page.url contains "/publications/" -%}{%- assign accent = "publications" -%}
+  {%- elsif page.url contains "/tutorials/" or page.categories contains "tutorials" -%}{%- assign accent = "tutorials" -%}
+  {%- elsif page.url contains "/gallery/" -%}{%- assign accent = "gallery" -%}
+  {%- elsif page.url contains "/open-positions/" -%}{%- assign accent = "positions" -%}
+  {%- endif -%}
+{%- endunless -%}

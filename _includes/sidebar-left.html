@@ -21,7 +21,7 @@
   <nav class="navigation">
     <ul class="navigation-list">
     {%- for nav in site.data.navigation -%}
-      <li class="navigation-item">
+      <li class="navigation-item nav-{{ nav.accent | default: 'home' }}{% if nav.accent == accent %} is-current{% endif %}">
         <a onclick="sessionStorage.setItem('forceCheckScroll', 'true')" href="{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
       </li>
     {%- endfor -%}

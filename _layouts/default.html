@@ -3,7 +3,8 @@
 
   {% include head.html %}
 
-  <body>
+  {%- include accent.html -%}
+  <body class="accent-{{ accent }}"{% if page.background_image %} style="background-image: url({{ page.background_image | relative_url }});"{% endif %}>
 
     <div class="container pure-g">
       {%- assign cover_bg_color = site.cover_bg_color | default: "rgb(40, 73, 77)" -%}
