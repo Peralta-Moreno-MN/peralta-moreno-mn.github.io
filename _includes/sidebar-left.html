@@ -10,7 +10,9 @@
     </div>
   {%- endif %}
   <div class="masthead-title">
-    <a href="{{ "/" | relative_url }}" title="Home">{{ site.title }}</a>
+    <a href="{{ "/" | relative_url }}" title="Home">
+      {%- if site.title_lines -%}{{ site.title_lines | join: "<br>" }}{%- else -%}{{ site.title }}{%- endif -%}
+    </a>
   </div>
   <div class="masthead-tagline">
     <small>{{ site.description }}</small>

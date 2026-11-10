@@ -2,7 +2,12 @@
 #  Site settings
 # ---------------------------------------------------------------
 title: María Nuria Peralta Moreno
-description: Theoretical & Computational Chemistry · Women in Science · Tutorials
+# Name in the sidebar, one line per item
+title_lines:
+  - María Nuria
+  - Peralta Moreno
+# Text under the name (also used by search engines)
+description: Theoretical & Computational Chemistry
 url: https://peralta-moreno-mn.github.io
 baseurl: ""
 lang: en
