@@ -7,7 +7,7 @@ permalink: /gallery/
 <p>Moments from my scientific life, in pictures.</p>
 
 <div class="gallery-sections">
-{%- assign sections = "conferences,abstracts,outreach" | split: "," -%}
+{%- assign sections = "infographics,conferences,abstracts,outreach" | split: "," -%}
 {%- for key in sections -%}
   {%- assign section = site.data.gallery[key] -%}
   {%- assign cover = nil -%}

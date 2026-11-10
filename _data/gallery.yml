@@ -17,6 +17,17 @@ conferences:
     #   caption: A short sentence about it.
     #   link: https://conference-website.org
 
+infographics:
+  title: Infographics
+  intro: Illustrated infographics to give visibility to women in science, and to explain science at a glance.
+  cover: /assets/img/gallery/infographics/cover.jpg
+  shape: portrait   # vertical images, shown whole (not cropped)
+  items:
+    # - image: /assets/img/gallery/infographics/2026-scientist-name.jpg
+    #   title: Scientist Name (1900–1980)
+    #   caption: Illustrated by Illustrator Name
+    #   link: https://www.instagram.com/username/   # e.g. the illustrator's post
+
 abstracts:
   title: Graphical abstracts
   intro: The visual summaries of my articles. Click on the title to read the paper.

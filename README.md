@@ -23,8 +23,8 @@ Los comentarios `<!-- ✏️ ... -->` dentro de los archivos indican qué falta 
 
 ## Escribir en el blog
 
-1. Copia una plantilla de `_drafts/` (`tutorial-template.md` o `women-in-science-template.md`).
+1. Copia la plantilla `_drafts/tutorial-template.md`.
 2. Guárdala en `_posts/` con el nombre `AAAA-MM-DD-titulo-corto.md` (por ejemplo `2026-11-20-intro-to-python.md`).
-3. La categoría decide dónde aparece: `tutorials` → *Tutorials*, `women-in-science` → *Women in Science*.
+3. Con `categories: [tutorials]` aparece en la sección *Tutorials*. Sin esa categoría, solo sale en el blog de la portada.
 
 Lo que esté en `_drafts/` no se publica.

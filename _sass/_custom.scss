@@ -94,6 +94,13 @@
   }
 }
 
+// Vertical images (infographics): show the whole image, no cropping
+.gallery-grid--portrait .gallery-item img {
+  aspect-ratio: auto;
+  object-fit: contain;
+  background: var(--gray-100);
+}
+
 // ----- Open positions: people -----
 .people-list {
   list-style: none;

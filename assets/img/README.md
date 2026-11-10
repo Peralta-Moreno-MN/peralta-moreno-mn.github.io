@@ -7,7 +7,8 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 | Carpeta | Qué va aquí |
 |---|---|
 | `backgrounds/` | Fondo general de la barra lateral (`default.jpeg` es el de ahora, del tema original) |
-| `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `women-in-science.jpg`, `gallery.jpg`, `open-positions.jpg`, `illustrations.jpg` |
+| `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `gallery.jpg`, `open-positions.jpg`, `illustrations.jpg` |
+| `gallery/infographics/` | **Infografías** (mujeres en la ciencia, divulgación) |
 | `gallery/conferences/` | Fotos de congresos |
 | `gallery/abstracts/` | Graphical abstracts de artículos |
 | `gallery/outreach/` | Divulgación y vida en el laboratorio |
@@ -26,7 +27,7 @@ La imagen se recorta automáticamente desde el centro, así que:
 - **Tamaño recomendado:** 1600 × 1600 px (cuadrada), con lo importante en el centro.
 - **Contraste:** el texto va en blanco, así que mejor tonos medios u oscuros, o una zona tranquila en el centro.
 - **Formato:** JPG o WebP, idealmente **menos de 400 KB** (se puede comprimir en [squoosh.app](https://squoosh.app)).
-- **Nombres:** en minúsculas, sin espacios ni tildes, por ejemplo `women-in-science.jpg`.
+- **Nombres:** en minúsculas, sin espacios ni tildes, por ejemplo `research.jpg`.
 
 ## Cómo activar una portadilla
 
@@ -37,6 +38,13 @@ En el archivo de la sección (por ejemplo `research.md`), quitar el `#` de la l�
 ```
 
 Para cambiar el fondo de toda la web, cambiar `cover_image` en `_config.yml`.
+
+## Infografías
+
+- **Formato vertical**, por ejemplo **1080 × 1350 px** (4:5, el mismo que Instagram) o A4. Se muestran **enteras**, sin recortar.
+- Para que se lean bien, el texto de la infografía no debería ser más pequeño de unos 28 px a ese tamaño.
+- **Nombre:** año y tema, por ejemplo `2026-rosalind-franklin.jpg`.
+- Después de subirla, añadirla a `_data/gallery.yml`, en la parte `infographics` (hay un ejemplo).
 
 ## Imágenes de la galería
 
