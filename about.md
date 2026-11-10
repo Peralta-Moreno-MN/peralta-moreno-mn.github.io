@@ -34,7 +34,4 @@ I care about making science more open and welcoming: I share illustrated
 
 ## Contact
 
-The best way to reach me is by email. You can also find me on
-[GitHub](https://github.com/Peralta-Moreno-MN).
-
-<!-- ✏️ Add your email (or the links of ORCID, LinkedIn, Google Scholar...) here and in _data/social.yml -->
+Want to collaborate or have a question? Have a look at the [contact page]({{ '/contact/' | relative_url }}).

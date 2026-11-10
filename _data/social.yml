@@ -4,10 +4,10 @@
   url: https://github.com/Peralta-Moreno-MN
   icon: fab fa-github
 
-# - title: Email
-#   url: mailto:your.address@example.com
-#   icon: fas fa-envelope
-#
+- title: Contact
+  url: /contact/
+  icon: fas fa-envelope
+
 # - title: ORCID
 #   url: https://orcid.org/0000-0000-0000-0000
 #   icon: fab fa-orcid

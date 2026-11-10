@@ -8,7 +8,7 @@ permalink: /open-positions/
 **There are no positions currently available.**
 
 If you are interested in a possible collaboration, feel free to
-[get in touch]({{ '/about/#contact' | relative_url }})!
+[get in touch]({{ '/contact/' | relative_url }})!
 
 ## But hey! 👋
 

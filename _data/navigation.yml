@@ -22,3 +22,6 @@
 - title: Open positions
   url: /open-positions/
   accent: positions
+- title: Contact
+  url: /contact/
+  accent: contact
