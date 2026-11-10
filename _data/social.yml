@@ -1,0 +1,21 @@
+# Icons under the menu. Icons: https://fontawesome.com/v5/search
+# Remove the "#" in front of a block to show it.
+- title: GitHub
+  url: https://github.com/Peralta-Moreno-MN
+  icon: fab fa-github
+
+# - title: Email
+#   url: mailto:your.address@example.com
+#   icon: fas fa-envelope
+#
+# - title: ORCID
+#   url: https://orcid.org/0000-0000-0000-0000
+#   icon: fab fa-orcid
+#
+# - title: Google Scholar
+#   url: https://scholar.google.com/citations?user=XXXX
+#   icon: fas fa-graduation-cap
+#
+# - title: LinkedIn
+#   url: https://www.linkedin.com/in/XXXX
+#   icon: fab fa-linkedin

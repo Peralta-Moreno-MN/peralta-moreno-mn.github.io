@@ -1,0 +1,33 @@
+---
+layout: default
+---
+{%- comment -%}
+  Shows the photos of one gallery section, taken from _data/gallery.yml.
+  The page sets `gallery: <section key>` in its front matter.
+{%- endcomment -%}
+{%- assign section = site.data.gallery[page.gallery] -%}
+<article class="page">
+  <p class="gallery-breadcrumb"><a href="{{ '/gallery/' | relative_url }}">&larr; Gallery</a></p>
+  <h1 class="page-title">{{ section.title | default: page.title }}</h1>
+  {%- if section.intro %}<p>{{ section.intro }}</p>{% endif -%}
+  {{ content }}
+
+  {%- if section.items and section.items.size > 0 -%}
+  <div class="gallery-grid">
+    {%- for item in section.items -%}
+    <figure class="gallery-item">
+      <a href="{{ item.image | relative_url }}" target="_blank" rel="noopener">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title | escape }}" loading="lazy">
+      </a>
+      <figcaption>
+        <strong>{% if item.link %}<a href="{{ item.link }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</strong>
+        {%- if item.date or item.place %}<br><small>{{ item.place }}{% if item.date and item.place %} · {% endif %}{{ item.date }}</small>{% endif -%}
+        {%- if item.caption %}<br>{{ item.caption }}{% endif -%}
+      </figcaption>
+    </figure>
+    {%- endfor -%}
+  </div>
+  {%- else -%}
+  <p class="message">Photos coming soon!</p>
+  {%- endif -%}
+</article>

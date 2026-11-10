@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------
+#  ILLUSTRATORS — shown on /illustrations/
+#  Replace the placeholders with their real names and Instagram links.
+# ---------------------------------------------------------------
+- name: Illustrator name
+  role: Backgrounds and section covers
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-1.jpg   # optional (avatar or self-portrait)
+  bio: Illustration student. Short sentence about her style.
+
+- name: Illustrator name
+  role: Illustrations
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-2.jpg
+  bio: Short sentence about her style.
+
+- name: Illustrator name
+  role: Illustrations
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-3.jpg
+  bio: Short sentence about her style.

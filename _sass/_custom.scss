@@ -1,0 +1,148 @@
+// ---------------------------------------------------------------
+//  Custom styles for this site (home intro, gallery, people, illustrators)
+// ---------------------------------------------------------------
+
+.home-intro {
+  margin-bottom: var(--spacer-3);
+}
+
+// Menu: compact on phones (sidebar is on top)
+@media (max-width: $md-width) {
+  .navigation-item {
+    display: inline-block;
+    margin: 0 .6rem .5rem 0;
+  }
+}
+
+// ----- Gallery index -----
+.gallery-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--spacer-2);
+  margin-top: var(--spacer-2);
+}
+
+.gallery-section-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: calc(var(--border-radius) * 3);
+  overflow: hidden;
+  color: inherit;
+  transition: transform .15s ease, box-shadow .15s ease;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+  }
+
+  img,
+  .gallery-section-placeholder {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .gallery-section-placeholder {
+    background: linear-gradient(135deg, rgb(40, 73, 77), var(--teal));
+    opacity: .85;
+  }
+}
+
+.gallery-section-title {
+  padding: .75rem 1rem 0;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.gallery-section-count {
+  padding: 0 1rem .75rem;
+  font-size: 85%;
+  color: var(--gray-600);
+}
+
+// ----- Gallery section -----
+.gallery-breadcrumb {
+  margin-bottom: .25rem;
+  font-size: 85%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--spacer-2);
+}
+
+.gallery-item {
+  margin: 0;
+
+  img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: calc(var(--border-radius) * 3);
+    margin-bottom: .5rem;
+  }
+
+  figcaption {
+    font-size: 85%;
+    line-height: 1.4;
+  }
+}
+
+// ----- Open positions: people -----
+.people-list {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: .6rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+// ----- Illustrators -----
+.illustrators {
+  display: grid;
+  gap: var(--spacer-2);
+  margin-top: var(--spacer-2);
+}
+
+.illustrator-card {
+  display: flex;
+  gap: var(--spacer-2);
+  align-items: flex-start;
+  padding: var(--spacer-2);
+  border: 1px solid var(--border-color);
+  border-radius: calc(var(--border-radius) * 3);
+
+  p {
+    margin-bottom: .5rem;
+  }
+}
+
+.illustrator-photo {
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+}
+
+.illustrator-name {
+  margin: 0;
+}
+
+.illustrator-role {
+  font-size: 85%;
+  color: var(--gray-600);
+}
+
+.illustrator-link {
+  font-weight: 600;
+}

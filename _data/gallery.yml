@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------
+#  GALLERY
+#  Each section is a sub-page of /gallery/.
+#  To add a photo: upload it to assets/img/gallery/<section>/
+#  and add an entry under `items` like the example (remove the "#").
+# ---------------------------------------------------------------
+
+conferences:
+  title: Conferences
+  intro: Talks, posters and great people met along the way.
+  cover: /assets/img/gallery/conferences/cover.jpg   # optional thumbnail for /gallery/
+  items:
+    # - image: /assets/img/gallery/conferences/2026-conference-poster.jpg
+    #   title: Poster at Conference Name
+    #   place: City, Country
+    #   date: June 2026
+    #   caption: A short sentence about it.
+    #   link: https://conference-website.org
+
+abstracts:
+  title: Graphical abstracts
+  intro: The visual summaries of my articles. Click on the title to read the paper.
+  cover: /assets/img/gallery/abstracts/cover.jpg
+  items:
+    # - image: /assets/img/gallery/abstracts/2026-article-name.png
+    #   title: Article title
+    #   date: 2026
+    #   caption: Journal name
+    #   link: https://doi.org/10.xxxx/xxxxx
+
+outreach:
+  title: Outreach & life in science
+  intro: Science communication, events with students, and everyday moments in the lab.
+  cover: /assets/img/gallery/outreach/cover.jpg
+  items:
+    # - image: /assets/img/gallery/outreach/2026-event.jpg
+    #   title: Event name
+    #   place: City
+    #   date: February 2026

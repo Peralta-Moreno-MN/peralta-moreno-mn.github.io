@@ -1,0 +1,19 @@
+# Menu of the left sidebar (in this order)
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Tutorials
+  url: /tutorials/
+- title: Women in Science
+  url: /women-in-science/
+- title: Gallery
+  url: /gallery/
+- title: Open positions
+  url: /open-positions/
+- title: Illustrations
+  url: /illustrations/

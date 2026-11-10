@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------
+#  Site settings
+# ---------------------------------------------------------------
+title: María Nuria Peralta Moreno
+description: Theoretical & Computational Chemistry · Women in Science · Tutorials
+url: https://peralta-moreno-mn.github.io
+baseurl: ""
+lang: en
+
+# Profile photo shown in the left sidebar
+avatar: /assets/img/profile.jpg
+
+# Default background of the left sidebar.
+# Each page can use its own illustration with `cover_image:` in its front matter.
+cover_image: /assets/img/backgrounds/default.jpeg
+# cover_bg_color: "rgb(40, 73, 77)"   # colour used while the image loads
+# cover_color: "rgb(255, 255, 255)"   # text colour on the sidebar
+
+paginate: 5
+permalink: pretty
+
+author:
+  name: María Nuria Peralta Moreno
+  url: https://github.com/Peralta-Moreno-MN
+
+# Used by the jekyll-seo-tag plugin
+social:
+  name: María Nuria Peralta Moreno
+  links:
+    - https://github.com/Peralta-Moreno-MN
+
+# ---------------------------------------------------------------
+#  Plugins (all supported by GitHub Pages)
+# ---------------------------------------------------------------
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - .editorconfig
+  - .jekyll-cache
+  - LICENSE.md
+  - README.md
+  - assets/img/README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# ---------------------------------------------------------------
+#  Defaults
+# ---------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Text before this mark is shown as the post summary
+excerpt_separator: "<!--more-->"
