@@ -8,6 +8,12 @@
   photo: /assets/img/illustrators/illustrator-1.jpg   # optional (avatar or self-portrait)
   bio: Illustration student. Short sentence about her style.
 
+- name: Illustrator name               # ✏️ scrapbook artist
+  role: Scrapbook illustrations · From Leaf to Lead
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-scrapbook.jpg
+  bio: Handmade scrapbook collages for the stories about medicinal plants.
+
 - name: Illustrator name
   role: Illustrations
   instagram: https://www.instagram.com/username/
