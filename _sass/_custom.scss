@@ -282,6 +282,33 @@ body {
   }
 }
 
+// Social icons under the menu: wrap onto two lines if needed
+.social {
+  font-size: 125%;
+  line-height: 1;
+}
+
+.social .social-icon {
+  padding: .55rem .6rem;
+}
+
+.social .social-icons {
+  white-space: normal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+// Profiles list on the contact page
+.contact-links {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: .3rem 0;
+  }
+}
+
 // Gallery placeholders use the rainbow
 .gallery-section-card .gallery-section-placeholder {
   background: $rainbow;

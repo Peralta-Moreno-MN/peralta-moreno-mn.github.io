@@ -26,10 +26,10 @@ Feel free to reach out for collaborations, questions about the tutorials, or jus
 
 ## Elsewhere
 
-- <i class="fab fa-github"></i> [GitHub](https://github.com/Peralta-Moreno-MN)
-
-<!-- ✏️ Add more profiles here, e.g.:
-- <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0000-0000-0000)
-- <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/...)
-- <i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/...)
--->
+<ul class="contact-links">
+{%- for s in site.data.social -%}
+  {%- unless s.url == "/contact/" %}
+  <li><a href="{{ s.url }}" target="_blank" rel="noopener"><i class="{{ s.icon }} fa-fw"></i> {{ s.title }}</a></li>
+  {%- endunless -%}
+{%- endfor %}
+</ul>
