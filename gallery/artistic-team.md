@@ -29,7 +29,20 @@ these wonderful artists. Go check out their work!
         <i class="fab fa-instagram"></i> Instagram
       </a>
       {%- endif -%}
+      {%- if artist.email -%}
+      {%- assign parts = artist.email | split: "@" -%}
+      <a class="illustrator-link illustrator-email" href="#" data-u="{{ parts[0] }}" data-d="{{ parts[1] }}">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+      {%- endif -%}
     </div>
   </div>
 {%- endfor -%}
 </div>
+
+<script>
+  // Email addresses are assembled here so spam bots can't read them from the page source.
+  document.querySelectorAll(".illustrator-email").forEach(function (a) {
+    a.href = "mailto:" + a.dataset.u + "@" + a.dataset.d;
+  });
+</script>
