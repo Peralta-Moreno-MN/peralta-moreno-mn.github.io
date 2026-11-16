@@ -28,9 +28,9 @@ Hi! I'm **María Nuria Peralta Moreno**, a researcher in theoretical and computa
 
 ## Beyond research
 
-I care about making science more open and welcoming: I share illustrated
-[infographics]({{ '/gallery/infographics/' | relative_url }}) about women in science and
-[tutorials]({{ '/tutorials/' | relative_url }}) for students.
+I care about making science more open and welcoming: I write illustrated
+[Scientific Stories]({{ '/stories/' | relative_url }}), including a series on women in drug design,
+and share [tutorials]({{ '/tutorials/' | relative_url }}) for students.
 
 ## Contact
 
