@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------
+#  COOL PEOPLE — shown on /open-positions/
+#  Friends and colleagues who may have positions or be great to work with.
+#  `type` groups them: "Group leaders & professors" or "Researchers".
+# ---------------------------------------------------------------
+- name: Name Surname
+  type: Group leaders & professors
+  affiliation: University / Institute, City
+  topic: Research topic in a few words
+  link: https://group-website.org
+
+- name: Name Surname
+  type: Researchers
+  affiliation: University / Institute, City
+  topic: Research topic in a few words
+  link: https://personal-website.org

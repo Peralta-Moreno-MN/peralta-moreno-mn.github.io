@@ -1,0 +1,31 @@
+---
+layout: page
+title: Scientific Stories
+permalink: /stories/
+# background_image: /assets/img/covers/stories.jpg
+---
+<p>Science is full of stories worth telling. Each series has its own topic and its own illustrator.</p>
+
+<div class="series-list">
+{%- for entry in site.data.series -%}
+  {%- assign key = entry[0] -%}
+  {%- assign s = entry[1] -%}
+  {%- assign cover = nil -%}
+  {%- for f in site.static_files -%}
+    {%- if f.path == s.cover -%}{%- assign cover = f.path -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign posts = site.categories.stories | where: "series", key -%}
+  <a class="series-card" href="{{ '/stories/' | append: key | append: '/' | relative_url }}">
+    {%- if cover -%}
+    <img src="{{ cover | relative_url }}" alt="" loading="lazy">
+    {%- else -%}
+    <span class="series-placeholder" aria-hidden="true"></span>
+    {%- endif -%}
+    <span class="series-body">
+      <span class="series-title">{{ s.title }}</span>
+      <span class="series-tagline">{{ s.tagline }}</span>
+      <span class="series-meta">{% if posts.size > 0 %}{{ posts.size }} stor{% if posts.size > 1 %}ies{% else %}y{% endif %}{% else %}Coming soon{% endif %}{% if s.illustrator %} · {{ s.style | default: "Illustrations" }} by {{ s.illustrator }}{% endif %}</span>
+    </span>
+  </a>
+{%- endfor -%}
+</div>

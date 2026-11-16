@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------
+#  ILLUSTRATORS — shown on /gallery/artistic-team/
+#  Replace the placeholders with their real names and Instagram links.
+# ---------------------------------------------------------------
+- name: Illustrator name
+  role: Backgrounds and section covers
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-1.jpg   # optional (avatar or self-portrait)
+  bio: Illustration student. Short sentence about her style.
+
+- name: Illustrator name               # ✏️ scrapbook artist
+  role: Scrapbook illustrations · From Leaf to Lead
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-scrapbook.jpg
+  bio: A handmade world of paper, memories and textures. From albums to journals and collages, every piece is built layer by layer, where pressed flowers, cut-outs and little details come together to tell a story.
+
+- name: Illustrator name
+  role: Illustrations
+  instagram: https://www.instagram.com/username/
+  photo: /assets/img/illustrators/illustrator-2.jpg
+  bio: Short sentence about her style.
+
+- name: Atelier Sianna
+  role: Illustration & independent design
+  instagram: https://www.instagram.com/atelier.sianna
+  email: atelier.sianna@gmail.com
+  photo: /assets/img/illustrators/atelier-sianna.jpg
+  bio: A space for creative exploration and independent design. With no labels or rules, the work is defined by minimalism, continuous line and the aesthetics of detail.

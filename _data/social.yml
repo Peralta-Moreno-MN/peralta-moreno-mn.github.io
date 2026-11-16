@@ -1,0 +1,28 @@
+# Icons under the menu, in this order. Icons: https://fontawesome.com/search?ic=brands
+- title: ORCID
+  url: https://orcid.org/0000-0002-7762-0406
+  icon: fab fa-orcid
+
+- title: GitHub
+  url: https://github.com/Peralta-Moreno-MN
+  icon: fab fa-github
+
+- title: LinkedIn
+  url: https://www.linkedin.com/in/peralta-mnuria/
+  icon: fab fa-linkedin
+
+- title: Bluesky
+  url: https://bsky.app/profile/peraltamnuria.bsky.social
+  icon: fab fa-bluesky
+
+- title: X (Twitter)
+  url: https://x.com/PeraltaMNuria
+  icon: fab fa-x-twitter
+
+- title: Instagram
+  url: https://www.instagram.com/mnuria_peralta_moreno/
+  icon: fab fa-instagram
+
+- title: Contact
+  url: /contact/
+  icon: fas fa-envelope
