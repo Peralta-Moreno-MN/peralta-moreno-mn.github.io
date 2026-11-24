@@ -15,7 +15,7 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 | `illustrators/` | Foto o autorretrato de cada ilustradora (opcional) y `cover.jpg` para la tarjeta *Artistic team* de la galería |
 | `stories/from-leaf-to-lead/` | Ilustraciones scrapbook de la serie *From Leaf to Lead* (plantas medicinales) |
 | `stories/women-in-drug-design/` | Ilustraciones de la serie *Women in Drug Design* |
-| `stories/rare-diseases/` | Ilustraciones de la serie *Rare but Real Diseases* (enfermedades raras) |
+| `stories/rare-diseases/` | Ilustraciones de la serie *Rare but Real* (enfermedades raras) |
 | `blog/` | Imágenes para otras entradas del blog (tutoriales…) |
 
 ## Cómo se ve la ilustración de fondo / portadilla
