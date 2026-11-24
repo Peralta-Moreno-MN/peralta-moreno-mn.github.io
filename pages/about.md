@@ -28,9 +28,18 @@ Hi! I'm **María Nuria Peralta Moreno**, a researcher in theoretical and computa
 
 ## Beyond research
 
-I care about making science more open and welcoming: I write illustrated
-[Scientific Stories]({{ '/stories/' | relative_url }}), including series on women in drug design and on rare diseases,
-and share [tutorials]({{ '/tutorials/' | relative_url }}) for students.
+I care about making science more open, welcoming and close to the people it is for.
+That's why I write illustrated [Scientific Stories]({{ '/stories/' | relative_url }}):
+
+- **[Rare but Real]({{ '/stories/rare-diseases/' | relative_url }})**, to give visibility to rare
+  diseases, the people and families living with them, and the research that keeps moving forward.
+- **[From Leaf to Lead]({{ '/stories/from-leaf-to-lead/' | relative_url }})**, about medicinal plants
+  and the molecules behind them.
+- **[Women in Drug Design]({{ '/stories/women-in-drug-design/' | relative_url }})**, about the women
+  behind the medicines we use every day.
+
+I also share [tutorials]({{ '/tutorials/' | relative_url }}) for students, so nobody has to figure
+things out alone.
 
 ## Contact
 
