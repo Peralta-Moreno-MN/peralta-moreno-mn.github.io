@@ -3,39 +3,49 @@ layout: page
 title: Home
 ---
 
-<h1 class="page-title">Welcome!</h1>
+<div class="home-hero">
+  <h1 class="page-title">Welcome!</h1>
+  <p class="lead">
+    I'm María Nuria Peralta Moreno, a researcher in theoretical and computational chemistry.
+  </p>
+  <p>
+    This is my academic corner of the internet: my research and publications, illustrated
+    stories about science, and practical tutorials for students.
+  </p>
+</div>
 
-<p class="lead">
-  I'm María Nuria Peralta Moreno, a researcher in theoretical and computational chemistry.
-</p>
-
-<p>
-  This is my academic corner of the internet: my research and publications, illustrated stories
-  about science, and practical tutorials for students.
-</p>
+<h2 class="home-heading">Explore</h2>
 
 <div class="home-cards">
-  <a class="home-card" href="{{ '/research/' | relative_url }}">
+  <a class="home-card nav-research" href="{{ '/research/' | relative_url }}">
     <strong>Research</strong>
     <span>What I work on, and the projects behind it.</span>
   </a>
-  <a class="home-card" href="{{ '/publications/' | relative_url }}">
+  <a class="home-card nav-publications" href="{{ '/publications/' | relative_url }}">
     <strong>Publications</strong>
     <span>Articles and conference contributions.</span>
   </a>
-  <a class="home-card" href="{{ '/stories/' | relative_url }}">
+  <a class="home-card nav-tutorials" href="{{ '/tutorials/' | relative_url }}">
+    <strong>Tutorials</strong>
+    <span>Hands-on guides, and an overview of today's CADD methods.</span>
+  </a>
+  <a class="home-card nav-stories" href="{{ '/stories/' | relative_url }}">
     <strong>Scientific Stories</strong>
     <span>Illustrated series on rare diseases, medicinal plants, women in drug design and more.</span>
   </a>
-  <a class="home-card" href="{{ '/tutorials/' | relative_url }}">
-    <strong>Tutorials</strong>
-    <span>Hands-on guides, and an overview of today's CADD methods.</span>
+  <a class="home-card nav-gallery" href="{{ '/gallery/' | relative_url }}">
+    <strong>Gallery</strong>
+    <span>Conferences, graphical abstracts and the artists behind this website.</span>
+  </a>
+  <a class="home-card nav-about" href="{{ '/about/' | relative_url }}">
+    <strong>About me</strong>
+    <span>Background, research experience and teaching.</span>
   </a>
 </div>
 
 {%- assign recent = site.posts | slice: 0, 3 -%}
 {%- if recent.size > 0 %}
-<h2>Recent</h2>
+<h2 class="home-heading">Recent</h2>
 
 <ul class="home-recent">
   {%- for post in recent -%}
