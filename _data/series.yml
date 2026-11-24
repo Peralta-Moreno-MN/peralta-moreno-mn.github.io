@@ -27,3 +27,15 @@ women-in-drug-design:
   illustrator_link: https://www.instagram.com/username/
   style: Illustrated portraits
   cover: /assets/img/stories/women-in-drug-design/cover.jpg
+
+rare-diseases:
+  title: Rare but Real
+  tagline: Giving visibility to rare diseases and the science fighting them.
+  description: >-
+    A rare disease affects only a few people, but together they affect millions.
+    Stories about rare diseases, the people living with them, and the research
+    working towards better diagnoses and treatments.
+  illustrator: Illustrator name          # ✏️
+  illustrator_link: https://www.instagram.com/username/
+  style: Illustrations
+  cover: /assets/img/stories/rare-diseases/cover.jpg

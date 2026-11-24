@@ -29,7 +29,7 @@ Hi! I'm **María Nuria Peralta Moreno**, a researcher in theoretical and computa
 ## Beyond research
 
 I care about making science more open and welcoming: I write illustrated
-[Scientific Stories]({{ '/stories/' | relative_url }}), including a series on women in drug design,
+[Scientific Stories]({{ '/stories/' | relative_url }}), including series on women in drug design and on rare diseases,
 and share [tutorials]({{ '/tutorials/' | relative_url }}) for students.
 
 ## Contact
