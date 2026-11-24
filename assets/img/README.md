@@ -16,7 +16,7 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 | `stories/from-leaf-to-lead/` | Ilustraciones scrapbook de la serie *From Leaf to Lead* (plantas medicinales) |
 | `stories/women-in-drug-design/` | Ilustraciones de la serie *Women in Drug Design* |
 | `stories/structure-function/` | Ilustraciones de *From Structure to Function (and Back)* |
-| `stories/paths-in-science/` | **Fotos de Nuria** para *Paths in Science* |
+| `stories/paths-in-science/` | **Fotos de Nuria** para *We Make the Path by Walking* |
 | `stories/rare-diseases/` | Ilustraciones de la serie *Rare but Real* (enfermedades raras) |
 | `blog/` | Imágenes para otras entradas del blog (tutoriales…) |
 

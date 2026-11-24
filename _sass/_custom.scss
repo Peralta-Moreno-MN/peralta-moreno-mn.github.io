@@ -472,6 +472,17 @@ body {
   color: var(--gray-600);
 }
 
+// Publications list
+.publications li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.publications-note {
+  font-size: 85%;
+  color: var(--gray-600);
+}
+
 // Gallery placeholders use the rainbow
 .gallery-section-card .gallery-section-placeholder {
   background: $rainbow;

@@ -5,19 +5,55 @@ permalink: /publications/
 # cover_image: /assets/img/covers/publications.jpg
 ---
 
-<!-- ✏️ Link your ORCID / Google Scholar profile here:
-You can also find my publications on [ORCID](https://orcid.org/...) and [Google Scholar](https://scholar.google.com/...).
--->
+You can also find my work on [ORCID](https://orcid.org/0000-0002-7762-0406).
 
 ## Articles
 
-<!-- ✏️ Most recent first. Example:
+<ol class="publications" reversed>
+<li markdown="1">
+**Peralta-Moreno, M. N.**; Granadino-Roldán, J. M.; Santos Tomas, M.; Rubio-Martinez, J.\*
+Boosting Drug Discovery: Expanding the Applicability of Fragment Dissolved Molecular Dynamics to Accelerate Binding Mode Elucidation.
+*Journal of Chemical Information and Modeling* **2025**, 65 (23), 12879–12893.
+[doi:10.1021/acs.jcim.5c02122](https://doi.org/10.1021/acs.jcim.5c02122)
+</li>
 
-1. **Surname, A.**; Peralta-Moreno, M. N.; Surname, B. Title of the article.
-   *Journal Name* **2026**, 12, 345–356. [doi:10.xxxx/xxxxx](https://doi.org/10.xxxx/xxxxx)
--->
+<li markdown="1">
+Alegre-Martí, A.<sup>#</sup>; Jiménez-Panizo, A.<sup>#</sup>; Lafuente, A. L.<sup>#</sup>; Johnson, T. A.; Montoya-Novoa, I.; **Peralta-Moreno, M. N.**; Montanyà-Valluguera, P.; Ponsetí-Pons, J.; Abella, M.; Kim, S.; Díaz, M.; Vilaseca, M.; Pérez, P.; Fernández-Recio, J.; Rubio-Martínez, J.; Presman, D. M.; Hager, G. L.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
+The multimerization pathway of the glucocorticoid receptor.
+*Nucleic Acids Research* **2025**, 53, gkaf1003.
+[doi:10.1093/nar/gkaf1003](https://doi.org/10.1093/nar/gkaf1003)
+</li>
 
-*Coming soon.*
+<li markdown="1">
+Medina-Pérez, N. I.; **Peralta-Moreno, M. N.**; Rubio-Martinez, J.; Bechtella, L.; Polewski, L.; Berdalet, E.; Moyano, E.\*; Pagel, K.
+Ion mobility-mass spectrometry of palytoxin-like compounds produced by *Ostreopsis* cf. *ovata*.
+*Analytical and Bioanalytical Chemistry* **2025**, 417, 6665–6677.
+[doi:10.1007/s00216-025-06158-7](https://doi.org/10.1007/s00216-025-06158-7)
+</li>
+
+<li markdown="1">
+**Peralta-Moreno, M. N.**; Mena, Y.; Ortega-Alarcon, D.; Jimenez-Alesanco, A.; Vega, S.; Abian, O.; Velazquez-Campoy, A.; Thomson, T. M.; Pinto, M.; Granadino-Roldán, J. M.; Santos Tomas, M.; Pérez, J. J.; Rubio-Martinez, J.\*
+Shedding Light on Dark Chemical Matter: The Discovery of a SARS-CoV-2 M<sup>pro</sup> Main Protease Inhibitor through Intensive Virtual Screening and In Vitro Evaluation.
+*International Journal of Molecular Sciences* **2024**, 25 (11), 6119.
+[doi:10.3390/ijms25116119](https://doi.org/10.3390/ijms25116119)
+</li>
+
+<li markdown="1">
+**Peralta-Moreno, M. N.**; Anton-Muñoz, V.; Ortega-Alarcon, D.; Jimenez-Alesanco, A.; Vega, S.; Abian, O.; Velazquez-Campoy, A.; Thomson, T. M.; Granadino-Roldán, J. M.; Machicado, C.; Rubio-Martinez, J.\*
+Autochthonous Peruvian Natural Plants as Potential SARS-CoV-2 M<sup>pro</sup> Main Protease Inhibitors.
+*Pharmaceuticals* **2023**, 16 (4), 585.
+[doi:10.3390/ph16040585](https://doi.org/10.3390/ph16040585)
+</li>
+
+<li markdown="1">
+Alegre-Martí, A.<sup>#</sup>; Jiménez-Panizo, A.<sup>#</sup>; Martínez-Tébar, A.<sup>#</sup>; Poulard, C.; **Peralta-Moreno, M. N.**; Abella, M.; Antón, R.; Chiñas, M.; Eckhard, U.; Piulats, J. M.; Rojas, A. M.; Fernández-Recio, J.; Rubio-Martínez, J.; Le Romancer, M.; Aytes, A.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
+A hotspot for posttranslational modifications on the androgen receptor dimer interface drives pathology and anti-androgen resistance.
+*Science Advances* **2023**, 9, eade2175.
+[doi:10.1126/sciadv.ade2175](https://doi.org/10.1126/sciadv.ade2175)
+</li>
+</ol>
+
+<p class="publications-note"><sup>#</sup> Equal contribution · \* Corresponding author</p>
 
 ## Conference contributions
 

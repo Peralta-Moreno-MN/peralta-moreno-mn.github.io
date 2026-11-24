@@ -39,8 +39,8 @@ That's why I write illustrated [Scientific Stories]({{ '/stories/' | relative_ur
   behind the medicines we use every day.
 - **[From Structure to Function (and Back)]({{ '/stories/structure-function/' | relative_url }})**,
   about how a protein's shape tells us what it does.
-- **[Paths in Science]({{ '/stories/paths-in-science/' | relative_url }})**, about the human side of
-  a scientific career: experiences, opportunities and encouragement.
+- **[We Make the Path by Walking]({{ '/stories/paths-in-science/' | relative_url }})**, about the
+  human side of a scientific career: experiences, opportunities and encouragement.
 
 I also share [tutorials]({{ '/tutorials/' | relative_url }}) for students, so nobody has to figure
 things out alone.
