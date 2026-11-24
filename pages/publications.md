@@ -18,7 +18,7 @@ Boosting Drug Discovery: Expanding the Applicability of Fragment Dissolved Molec
 </li>
 
 <li markdown="1">
-Alegre-Martí, A.<sup>#</sup>; Jiménez-Panizo, A.<sup>#</sup>; Lafuente, A. L.<sup>#</sup>; Johnson, T. A.; Montoya-Novoa, I.; **Peralta-Moreno, M. N.**; Montanyà-Valluguera, P.; Ponsetí-Pons, J.; Abella, M.; Kim, S.; Díaz, M.; Vilaseca, M.; Pérez, P.; Fernández-Recio, J.; Rubio-Martínez, J.; Presman, D. M.; Hager, G. L.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
+Alegre-Martí, A.; Jiménez-Panizo, A.; Lafuente, A. L.; Johnson, T. A.; Montoya-Novoa, I.; **Peralta-Moreno, M. N.**; Montanyà-Valluguera, P.; Ponsetí-Pons, J.; Abella, M.; Kim, S.; Díaz, M.; Vilaseca, M.; Pérez, P.; Fernández-Recio, J.; Rubio-Martínez, J.; Presman, D. M.; Hager, G. L.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
 The multimerization pathway of the glucocorticoid receptor.
 *Nucleic Acids Research* **2025**, 53, gkaf1003.
 [doi:10.1093/nar/gkaf1003](https://doi.org/10.1093/nar/gkaf1003)
@@ -46,14 +46,14 @@ Autochthonous Peruvian Natural Plants as Potential SARS-CoV-2 M<sup>pro</sup> Ma
 </li>
 
 <li markdown="1">
-Alegre-Martí, A.<sup>#</sup>; Jiménez-Panizo, A.<sup>#</sup>; Martínez-Tébar, A.<sup>#</sup>; Poulard, C.; **Peralta-Moreno, M. N.**; Abella, M.; Antón, R.; Chiñas, M.; Eckhard, U.; Piulats, J. M.; Rojas, A. M.; Fernández-Recio, J.; Rubio-Martínez, J.; Le Romancer, M.; Aytes, A.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
+Alegre-Martí, A.; Jiménez-Panizo, A.; Martínez-Tébar, A.; Poulard, C.; **Peralta-Moreno, M. N.**; Abella, M.; Antón, R.; Chiñas, M.; Eckhard, U.; Piulats, J. M.; Rojas, A. M.; Fernández-Recio, J.; Rubio-Martínez, J.; Le Romancer, M.; Aytes, A.\*; Fuentes-Prior, P.\*; Estébanez-Perpiñá, E.\*
 A hotspot for posttranslational modifications on the androgen receptor dimer interface drives pathology and anti-androgen resistance.
 *Science Advances* **2023**, 9, eade2175.
 [doi:10.1126/sciadv.ade2175](https://doi.org/10.1126/sciadv.ade2175)
 </li>
 </ol>
 
-<p class="publications-note"><sup>#</sup> Equal contribution · \* Corresponding author</p>
+<p class="publications-note">\* Corresponding author.</p>
 
 ## Conference contributions
 
