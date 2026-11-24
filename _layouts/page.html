@@ -4,5 +4,9 @@ layout: default
 
 <article class="page">
   <h1 class="page-title">{{ page.title }}</h1>
+  {%- if page.provisional -%}
+  <p class="provisional-notice">🚧 <strong>Provisional version.</strong> This page is still being reviewed and may change.</p>
+  {%- endif -%}
+
   {{ content }}
 </article>

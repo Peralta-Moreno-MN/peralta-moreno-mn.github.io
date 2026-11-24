@@ -438,6 +438,40 @@ body {
   text-transform: uppercase;
 }
 
+// Featured card on the Tutorials page (The CADD Toolbox)
+.toolbox-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: var(--spacer-2) 0;
+  padding: 1rem 1.25rem;
+  border: 2px solid var(--accent);
+  border-radius: calc(var(--border-radius) * 3);
+  background: var(--accent-bg);
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .10);
+  }
+
+  strong {
+    color: var(--accent-text);
+    font-size: 1.1rem;
+  }
+}
+
+.toolbox-icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.toolbox-text {
+  font-size: 90%;
+  color: var(--gray-600);
+}
+
 // Gallery placeholders use the rainbow
 .gallery-section-card .gallery-section-placeholder {
   background: $rainbow;

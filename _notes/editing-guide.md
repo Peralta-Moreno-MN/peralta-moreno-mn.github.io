@@ -21,7 +21,7 @@ Los comentarios `<!-- ✏️ ... -->` dentro de los archivos indican qué falta 
 
 1. Copia la plantilla `_drafts/story-template.md`.
 2. Guárdala en `_posts/` como `AAAA-MM-DD-titulo-corto.md`.
-3. Pon `series: from-leaf-to-lead`, `series: women-in-drug-design` o `series: rare-diseases`.
+3. Pon `series: from-leaf-to-lead`, `series: women-in-drug-design`, `series: rare-diseases`, `series: structure-function` o `series: paths-in-science`.
 4. La ilustración de cabecera va en `assets/img/stories/<serie>/` y se indica con `image:`.
 5. Los datos de cada serie (descripción, ilustradora) están en `_data/series.yml`. Para crear una serie nueva, añádela ahí y crea su página en `pages/stories/` copiando una de las que hay.
 

@@ -1,7 +1,7 @@
 ---
 title: "Plant name: from leaf to lead"
 categories: [stories]
-series: from-leaf-to-lead          # or: women-in-drug-design, rare-diseases
+series: from-leaf-to-lead          # or: rare-diseases, women-in-drug-design, structure-function, paths-in-science
 tags: [medicinal-plants]
 image: /assets/img/stories/from-leaf-to-lead/plant-name.jpg   # header illustration (3:2, horizontal)
 image_alt: Scrapbook collage of ...

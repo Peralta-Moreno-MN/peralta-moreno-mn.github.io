@@ -12,8 +12,8 @@ rare-diseases:
     A rare disease affects only a few people, but together they affect millions.
     Stories about rare diseases, the people living with them, and the research
     working towards better diagnoses and treatments.
-  illustrator: Illustrator name          # ✏️
-  illustrator_link: https://www.instagram.com/username/
+  illustrator:                           # ✏️ name (leave empty to hide the credit)
+  illustrator_link:
   style: Illustrations
   cover: /assets/img/stories/rare-diseases/cover.jpg
 
@@ -24,8 +24,8 @@ from-leaf-to-lead:
     From traditional remedies to modern medicines: the stories of medicinal plants,
     the active molecules hidden in their leaves, roots and flowers, and how they
     inspire the design of new drugs.
-  illustrator: Illustrator name          # ✏️ name of the scrapbook artist
-  illustrator_link: https://www.instagram.com/username/
+  illustrator:                           # ✏️ name (leave empty to hide the credit)
+  illustrator_link:
   style: Scrapbook illustrations
   cover: /assets/img/stories/from-leaf-to-lead/cover.jpg
 
@@ -39,3 +39,27 @@ women-in-drug-design:
   illustrator_link: https://www.instagram.com/atelier.sianna
   style: Illustrated portraits
   cover: /assets/img/stories/women-in-drug-design/cover.jpg
+
+structure-function:
+  title: From Structure to Function (and Back)
+  tagline: How a protein's shape tells us what it does, and how we design shapes to do new things.
+  description: >-
+    Proteins are tiny machines, and their shape is the key to how they work.
+    Stories that go from structure to function, understanding what a protein does by
+    looking at its 3D shape, and back again, designing structures to achieve new functions.
+  illustrator:
+  illustrator_link:
+  style: Illustrations
+  cover: /assets/img/stories/structure-function/cover.jpg
+
+paths-in-science:
+  title: Paths in Science
+  tagline: The human side of a scientific career.
+  description: >-
+    Science is also made of decisions, moves, doubts and small victories. Personal
+    experiences, mine and those of colleagues, practical tips on grants and opportunities,
+    and some encouragement for everyone building their own path in science.
+  illustrator:
+  illustrator_link:
+  style: Photos
+  cover: /assets/img/stories/paths-in-science/cover.jpg
