@@ -25,6 +25,10 @@ layout: default
     {%- endif -%}
   </div>
 
+  {%- if page.provisional -%}
+  <p class="provisional-notice">🚧 <strong>Provisional version.</strong> This post is still being reviewed and may change.</p>
+  {%- endif -%}
+
   {%- if page.series -%}
     {%- assign series = site.data.series[page.series] -%}
     <p class="post-series">A story from <a href="{{ '/stories/' | append: page.series | append: '/' | relative_url }}">{{ series.title }}</a></p>

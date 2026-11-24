@@ -32,3 +32,5 @@ Los comentarios `<!-- ✏️ ... -->` dentro de los archivos indican qué falta 
 3. Con `categories: [tutorials]` aparece en la sección *Tutorials*. Sin esa categoría, solo sale en el blog de la portada.
 
 Lo que esté en `_drafts/` no se publica.
+
+Para publicar una entrada con el aviso de **versión provisional**, añade `provisional: true` en su cabecera. Para quitarlo, borra esa línea.

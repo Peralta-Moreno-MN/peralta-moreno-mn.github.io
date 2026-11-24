@@ -416,6 +416,28 @@ body {
   margin: 0;
 }
 
+// "Provisional" notice for posts still under review (provisional: true)
+.provisional-notice {
+  padding: .75rem 1rem;
+  border-radius: calc(var(--border-radius) * 3);
+  border: 1px dashed var(--accent, #fab005);
+  background: var(--accent-bg, #fff9db);
+  font-size: 90%;
+}
+
+.provisional-badge {
+  display: inline-block;
+  vertical-align: middle;
+  padding: .1rem .55rem;
+  border-radius: 999px;
+  border: 1px dashed var(--gray-600);
+  color: var(--gray-600);
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
 // Gallery placeholders use the rainbow
 .gallery-section-card .gallery-section-placeholder {
   background: $rainbow;
