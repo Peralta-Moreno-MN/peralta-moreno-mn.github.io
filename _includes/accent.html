@@ -7,6 +7,7 @@
 {%- unless accent -%}
   {%- assign accent = "home" -%}
   {%- if page.url contains "/about/" -%}{%- assign accent = "about" -%}
+  {%- elsif page.url contains "/experience/" -%}{%- assign accent = "experience" -%}
   {%- elsif page.url contains "/research/" -%}{%- assign accent = "research" -%}
   {%- elsif page.url contains "/publications/" -%}{%- assign accent = "publications" -%}
   {%- elsif page.url contains "/tutorials/" or page.categories contains "tutorials" -%}{%- assign accent = "tutorials" -%}

@@ -9,13 +9,8 @@ Hi! I'm **María Nuria Peralta Moreno**, a researcher in theoretical and computa
 
 <!-- ✏️ Write 2–3 sentences about your current position, group and city. -->
 
-## Background
-
-<!-- ✏️ Your education and positions, most recent first. Example:
-- **PhD in Theoretical Chemistry and Computational Modelling (TCCM)**, University, 20XX–present
-- **MSc in ...**, University, 20XX
-- **BSc in Chemistry**, University, 20XX
--->
+My education, positions, research stays and teaching are on the
+[academic experience]({{ '/experience/' | relative_url }}) page.
 
 ## Skills
 

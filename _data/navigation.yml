@@ -7,6 +7,9 @@
 - title: About
   url: /about/
   accent: about
+- title: Academic experience
+  url: /experience/
+  accent: experience
 - title: Research
   url: /research/
   accent: research
