@@ -31,10 +31,15 @@ Our cells build **purines**, the building blocks of DNA, RNA and ATP, the molecu
 our energy, step by step, like an assembly line. **Adenylosuccinate lyase**, encoded by the
 *ADSL* gene, performs two of those steps.
 
-When the enzyme doesn't work well, the line gets stuck: two intermediates, SAICAR and S-AMP,
-pile up and are turned into **SAICAr** and **S-Ado**, which are thought to be toxic for the
-brain. These two compounds can be measured in urine and cerebrospinal fluid, and they are the
-key to diagnosis. Interestingly, the more SAICAr compared to S-Ado, the more severe the disease
+When the enzyme doesn't work well, the line gets stuck and two intermediates pile up:
+**SAICAR** (succinylaminoimidazole carboxamide ribotide) and **SAMP** (succinyladenosine
+monophosphate, also known as adenylosuccinate). Both lose their phosphate group and become
+**SAICAr** (succinylaminoimidazole carboxamide riboside) and **S-Ado** (succinyladenosine),
+which are thought to be toxic for the brain. Note the last letter: capital R for the
+phosphorylated ribotide, lowercase r for the riboside.
+
+These two compounds can be measured in urine and cerebrospinal fluid, and they are the key to
+diagnosis. Interestingly, the more SAICAr compared to S-Ado, the more severe the disease
 tends to be.
 
 It is **autosomal recessive**: a child needs two altered copies of the gene, one from each
