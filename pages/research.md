@@ -21,3 +21,7 @@ understand how molecules behave, and to help find the ones that could become med
   </a>
 {%- endfor -%}
 </div>
+
+## Software
+
+Tools available at [fdMD-hub](https://github.com/Peralta-Moreno-MN/fdMD-hub).
