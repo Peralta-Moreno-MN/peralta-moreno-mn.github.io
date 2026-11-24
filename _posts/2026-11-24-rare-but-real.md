@@ -29,8 +29,9 @@ For the vast majority, what medicine can offer today is palliative care: relievi
 symptoms, slowing things down where possible, making each day a little easier.
 
 That care matters enormously. But it is not enough. With so few patients for each disease,
-research has often been slow, and many of these diseases are still waiting for their turn
-in the lab.
+and little commercial interest in developing treatments for them, many rare diseases have
+stayed out of the spotlight for decades. Research has often been slow, and many of these
+diseases are still waiting for their turn in the lab.
 
 ## But there is hope
 
