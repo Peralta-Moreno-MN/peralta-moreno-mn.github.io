@@ -21,7 +21,6 @@ cover_image: /assets/img/backgrounds/gradient.jpg   # temporary, until the illus
 cover_bg_color: "rgb(24, 40, 64)"   # colour used while the image loads
 # cover_color: "rgb(255, 255, 255)"   # text colour on the sidebar
 
-paginate: 5
 permalink: pretty
 
 author:
@@ -39,7 +38,6 @@ social:
 # ---------------------------------------------------------------
 plugins:
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap

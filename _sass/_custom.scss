@@ -484,6 +484,57 @@ body {
   color: var(--gray-600);
 }
 
+// ----- Home page -----
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: var(--spacer-2);
+  margin: var(--spacer-2) 0 var(--spacer-3);
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border-color);
+  border-radius: calc(var(--border-radius) * 3);
+  color: inherit;
+  transition: transform .15s ease, box-shadow .15s ease;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .10);
+  }
+
+  strong {
+    color: var(--accent-text);
+  }
+
+  span {
+    font-size: 88%;
+    color: var(--gray-600);
+  }
+}
+
+.home-recent {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    padding: .45rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+
+.home-recent-meta {
+  display: block;
+  font-size: 82%;
+  color: var(--gray-600);
+}
+
 // Gallery placeholders use the rainbow
 .gallery-section-card .gallery-section-placeholder {
   background: $rainbow;

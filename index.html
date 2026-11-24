@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
@@ -10,13 +10,43 @@ title: Home
 </p>
 
 <p>
-  This is my academic corner of the internet. Here you'll find my <a href="{{ '/research/' | relative_url }}">research</a>
-  and <a href="{{ '/publications/' | relative_url }}">publications</a>, but also some projects close to my heart:
+  This is my academic corner of the internet: my research and publications, illustrated stories
+  about science, and practical tutorials for students.
 </p>
 
-<ul>
-  <li><strong><a href="{{ '/stories/' | relative_url }}">Scientific Stories</a></strong>: illustrated series on rare diseases (<em>Rare but Real</em>), medicinal plants (<em>From Leaf to Lead</em>) the women behind drug design (<em>Women in Drug Design</em>) and the link between protein structure and function (<em>From Structure to Function (and Back)</em>), plus <em>We Make the Path by Walking</em>, on the human side of a scientific career.</li>
-  <li><strong><a href="{{ '/tutorials/' | relative_url }}">Tutorials</a></strong>: practical guides for students, so nobody has to figure things out alone.</li>
-</ul>
+<div class="home-cards">
+  <a class="home-card" href="{{ '/research/' | relative_url }}">
+    <strong>Research</strong>
+    <span>What I work on, and the projects behind it.</span>
+  </a>
+  <a class="home-card" href="{{ '/publications/' | relative_url }}">
+    <strong>Publications</strong>
+    <span>Articles and conference contributions.</span>
+  </a>
+  <a class="home-card" href="{{ '/stories/' | relative_url }}">
+    <strong>Scientific Stories</strong>
+    <span>Illustrated series on rare diseases, medicinal plants, women in drug design and more.</span>
+  </a>
+  <a class="home-card" href="{{ '/tutorials/' | relative_url }}">
+    <strong>Tutorials</strong>
+    <span>Hands-on guides, and an overview of today's CADD methods.</span>
+  </a>
+</div>
 
-<h2>Latest posts</h2>
+{%- assign recent = site.posts | slice: 0, 3 -%}
+{%- if recent.size > 0 %}
+<h2>Recent</h2>
+
+<ul class="home-recent">
+  {%- for post in recent -%}
+  {%- assign s = site.data.series[post.series] -%}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="home-recent-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      {%- if s %} · {{ s.title }}{% endif -%}
+    </span>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- endif -%}
