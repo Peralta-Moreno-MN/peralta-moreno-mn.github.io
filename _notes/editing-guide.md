@@ -13,6 +13,7 @@ Todo se puede editar desde la web de GitHub (botón ✏️ en cada archivo). La 
 | Fotos de la galería | `_data/gallery.yml` + imágenes en `assets/img/gallery/` |
 | Ilustradoras | `_data/illustrators.yml` |
 | Gente en *Open positions* | `_data/people.yml` |
+| Proyectos (tarjetas de *Research*) | `_data/projects.yml` + una página en `pages/projects/` |
 | Ilustraciones y tamaños | ver `assets/img/README.md` |
 
 Los comentarios `<!-- ✏️ ... -->` dentro de los archivos indican qué falta por rellenar (no se ven en la web).

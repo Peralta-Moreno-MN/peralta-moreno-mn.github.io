@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------
+#  PROJECTS — cards shown on /research/
+#  Each project has its own page in pages/projects/
+# ---------------------------------------------------------------
+
+- title: The fdMD framework
+  tagline: Finding where a ligand binds, and how, with competitive molecular dynamics.
+  url: /research/fdmd/
+  accent: research
+  status: Ongoing
+
+# - title: Project name
+#   tagline: One line about it.
+#   url: /research/project-slug/
+#   accent: research
+#   status: Ongoing

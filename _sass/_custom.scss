@@ -535,6 +535,19 @@ body {
   }
 }
 
+.project-status {
+  align-self: flex-start;
+  margin-top: .2rem;
+  padding: .05rem .5rem;
+  border-radius: 999px;
+  background: var(--accent-bg);
+  color: var(--accent-text) !important;
+  font-size: .72rem !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
 .home-recent {
   list-style: none;
   padding-left: 0;
