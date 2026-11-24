@@ -46,9 +46,41 @@ Para cambiar el fondo de toda la web, cambiar `cover_image` en `_config.yml`.
 
 ## Scientific Stories (cabeceras de las entradas)
 
-- **Formato horizontal 3:2**, por ejemplo **1800 × 1200 px**. Se muestra arriba de cada entrada y en miniatura en la lista de la serie.
-- Cada serie puede tener una imagen de presentación `cover.jpg` en su carpeta.
-- **Nombre:** el tema de la entrada, por ejemplo `willow-bark.jpg`.
+Cada entrada lleva **una ilustración de cabecera**. La misma imagen sirve para la web y para
+redes sociales, si se entrega así:
+
+### Una sola imagen madre
+
+- **Lienzo cuadrado de 2400 × 2400 px.**
+- **Fondo transparente** (PNG), no blanco. Así se ve bien tanto en la web clara como si alguien
+  la mira con el móvil en modo oscuro.
+- **Todo lo importante dentro del círculo central**, dejando un margen generoso arriba y abajo
+  que se pueda recortar sin perder nada. Esa es la "zona segura".
+- **Sin texto dentro del dibujo.** Los títulos los pone la web, y así la misma ilustración vale
+  en español y en inglés.
+
+De esa imagen salen todas las versiones (eso lo hago yo, no hace falta que las exporte ella):
+
+| Dónde | Tamaño | Cómo se obtiene |
+|---|---|---|
+| Cabecera en la web | 1800 × 1200 px (3:2) | recortando arriba y abajo |
+| Lista de la serie | miniatura automática | — |
+| LinkedIn / Instagram | 1200 × 1200 px | la imagen cuadrada entera |
+
+### Si prefiere trabajar en vertical
+
+No hay problema: que entregue el dibujo vertical **centrado dentro de un lienzo cuadrado** de
+2400 × 2400 px, con el espacio sobrante transparente.
+
+### Otros detalles
+
+- **Formato:** PNG con transparencia. Si pesa mucho, yo lo comprimo.
+- **Nombre:** el tema de la entrada, en minúsculas y sin tildes, por ejemplo
+  `friedreich-ataxia.png`.
+- Cada serie puede tener además una imagen de presentación `cover.png` en su carpeta, con las
+  mismas características.
+- **Cuántas:** una por entrada. Si una entrada es larga, pueden añadirse uno o dos dibujos
+  pequeños sueltos para acompañar el texto.
 
 ## Infografías
 
