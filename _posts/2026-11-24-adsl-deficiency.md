@@ -1,5 +1,5 @@
 ---
-date: 2026-11-24 10:00:00 +0100
+date: 2026-11-24 08:00:00 +0100
 title: "ADSL deficiency: one missing step, and a path we walk together"
 categories: [stories]
 series: rare-diseases

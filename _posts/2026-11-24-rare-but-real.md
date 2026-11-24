@@ -1,6 +1,6 @@
 ---
 title: "Rare but real"
-date: 2026-11-24 12:00:00 +0100
+date: 2026-11-24 09:00:00 +0100
 categories: [stories]
 series: rare-diseases
 provisional: true

@@ -1,5 +1,5 @@
 ---
-date: 2026-11-24 11:00:00 +0100
+date: 2026-11-24 08:30:00 +0100
 title: "Friedreich's ataxia: when a small repeat makes a big difference"
 categories: [stories]
 series: rare-diseases
