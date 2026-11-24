@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+hide_title: true
 ---
 
 <div class="home-hero">
@@ -17,6 +18,10 @@ title: Home
 <h2 class="home-heading">Explore</h2>
 
 <div class="home-cards">
+  <a class="home-card nav-about" href="{{ '/about/' | relative_url }}">
+    <strong>About me</strong>
+    <span>Background, research experience and teaching.</span>
+  </a>
   <a class="home-card nav-research" href="{{ '/research/' | relative_url }}">
     <strong>Research</strong>
     <span>What I work on, and the projects behind it.</span>
@@ -36,10 +41,6 @@ title: Home
   <a class="home-card nav-gallery" href="{{ '/gallery/' | relative_url }}">
     <strong>Gallery</strong>
     <span>Conferences, graphical abstracts and the artists behind this website.</span>
-  </a>
-  <a class="home-card nav-about" href="{{ '/about/' | relative_url }}">
-    <strong>About me</strong>
-    <span>Background, research experience and teaching.</span>
   </a>
 </div>
 

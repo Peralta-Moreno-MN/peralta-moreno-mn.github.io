@@ -506,6 +506,7 @@ body {
 }
 
 .home-card {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   gap: .35rem;
@@ -521,6 +522,11 @@ body {
     text-decoration: none;
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, .10);
+  }
+
+  strong,
+  span {
+    text-decoration: none;
   }
 
   strong {
