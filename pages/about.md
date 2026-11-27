@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-# cover_image: /assets/img/covers/about.jpg
+background_image: /assets/img/covers/about.jpg
 ---
 
 Hi! I'm **María Nuria Peralta Moreno**, a researcher in theoretical and computational chemistry.

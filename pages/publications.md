@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-# cover_image: /assets/img/covers/publications.jpg
+background_image: /assets/img/covers/publications.jpg
 ---
 
 You can also find my work on [ORCID](https://orcid.org/0000-0002-7762-0406).

@@ -6,7 +6,7 @@ Guía para las ilustradoras (y para Nuria). Esta carpeta no aparece en la web, e
 
 | Carpeta | Qué va aquí |
 |---|---|
-| `backgrounds/` | Fondo general de la barra lateral (`gradient.jpg` es un degradado provisional hasta tener la ilustración) |
+| `backgrounds/` | Fondo de la barra lateral (`sidebar.jpg`), oscuro y con el texto en blanco encima |
 | `covers/` | Portadillas de cada sección: `about.jpg`, `research.jpg`, `publications.jpg`, `tutorials.jpg`, `gallery.jpg`, `open-positions.jpg` |
 | `gallery/infographics/` | **Infografías** (mujeres en la ciencia, divulgación) |
 | `gallery/conferences/` | Fotos de congresos |
@@ -34,15 +34,26 @@ La imagen se recorta automáticamente desde el centro, así que:
 - **Formato:** JPG o WebP, idealmente **menos de 400 KB** (se puede comprimir en [squoosh.app](https://squoosh.app)).
 - **Nombres:** en minúsculas, sin espacios ni tildes, por ejemplo `research.jpg`.
 
-## Cómo activar una portadilla
+## Cómo activar el fondo de una sección
 
-En el archivo de la sección (por ejemplo `pages/research.md`), quitar el `#` de la línea:
+En el archivo de la sección (por ejemplo `pages/research.md`), añadir esta línea en la cabecera,
+o quitarle el `#` si ya está:
 
 ```yaml
-# cover_image: /assets/img/covers/research.jpg
+background_image: /assets/img/covers/research.jpg
 ```
 
-Para cambiar el fondo de toda la web, cambiar `cover_image` en `_config.yml`.
+El fondo se ve **alrededor del panel blanco** del texto, así que conviene que sea suave y claro.
+
+Para cambiar el fondo de la barra lateral (el mismo en toda la web), cambiar `cover_image` en
+`_config.yml`. Ese sí es oscuro, porque lleva el texto en blanco encima.
+
+### Ya puestos
+
+- Barra lateral: `backgrounds/sidebar.jpg`
+- Home: `covers/home.jpg` · About: `covers/about.jpg` · Research: `covers/research.jpg` ·
+  Publications: `covers/publications.jpg`
+- Faltan: Tutorials, Scientific Stories, Gallery, Open positions y Contact.
 
 ## Scientific Stories (cabeceras de las entradas)
 

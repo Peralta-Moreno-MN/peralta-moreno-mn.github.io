@@ -15,10 +15,10 @@ lang: en
 # Profile photo shown in the left sidebar
 avatar: /assets/img/profile.jpg
 
-# Default background of the left sidebar.
-# Each page can use its own illustration with `cover_image:` in its front matter.
-cover_image: /assets/img/backgrounds/gradient.jpg   # temporary, until the illustration is ready
-cover_bg_color: "rgb(24, 40, 64)"   # colour used while the image loads
+# Doodle background of the left sidebar, shown on every page.
+# Each page can have its own doodle background with `background_image:` in its front matter.
+cover_image: /assets/img/backgrounds/sidebar.jpg
+cover_bg_color: "rgb(9, 25, 51)"   # colour used while the image loads
 # cover_color: "rgb(255, 255, 255)"   # text colour on the sidebar
 
 permalink: pretty

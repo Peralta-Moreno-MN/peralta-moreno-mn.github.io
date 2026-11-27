@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-# background_image: /assets/img/covers/research.jpg
+background_image: /assets/img/covers/research.jpg
 ---
 
 <!-- ✏️ A short overview of your research: the big question and why it matters. -->
