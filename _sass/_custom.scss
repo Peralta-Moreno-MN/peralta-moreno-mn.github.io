@@ -599,3 +599,52 @@ body {
     color: var(--accent);
   }
 }
+
+// ===============================================================
+//  READABILITY OVER THE DOODLE BACKGROUNDS
+// ===============================================================
+
+// Sidebar: soft dark veil over the illustration, so the white text
+// stays readable. Darker in the middle, where the text sits; lighter
+// at the corners, so the doodles still show.
+.sidebar-left {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+      ellipse 75% 62% at 50% 50%,
+      rgba(9, 25, 51, .88) 0%,
+      rgba(9, 25, 51, .72) 55%,
+      rgba(9, 25, 51, .35) 100%
+    );
+    pointer-events: none;
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.masthead-title,
+.masthead-tagline,
+.navigation-item a,
+.social {
+  text-shadow: 0 1px 6px rgba(9, 25, 51, .75);
+}
+
+// Dark mode: dim the page illustration too, so a dark panel doesn't
+// sit on a bright background.
+@media (prefers-color-scheme: dark) {
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: rgba(13, 17, 23, .86);
+    pointer-events: none;
+  }
+}
